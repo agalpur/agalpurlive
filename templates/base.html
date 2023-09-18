@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is home page</title>
+    <link rel="stylesheet" href="../static/base.css"/>
+    <link rel="stylesheet" href="../static/index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="village_name col-12">Agalpur</div>
+    <div class="navbar col-12">
+        <div class="home"><a href="/"><img src="../static/images/home.png" alt="home-png" style="width:25px;"></a></div>
+        <div class="about_agalpur"><a href="/about">About</a></div>
+        <div class="about_agalpur"><a href="/events">Events</a></div>
+    </div>
+
+
+<!-- ***************************************************************************************************** -->
+    
+    {% block content %} {% endblock content %}  <!--Differents pages contents-->
+
+<!-- ***************************************************************************************************** -->
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-name col-4 footer-div">
+                    <div>Agalpur</div>
+                    <div style="font-size: 12px;">
+                        <p>Agalpur,Balangir</p>
+                        <p>Odisha(767022)</p>
+                    </div>
+                    
+                </div>
+                <div class="footer-usefulllink col-4 footer-div">
+                    <div>Useful Link</div>
+                    <div style="font-size: 12px;">
+                        <p>Agalpur,Balangir</p>
+                        <p>Odisha(767022)</p>
+                    </div>
+
+                </div>
+                <div class="footer-contactus col-4 footer-div">
+                    <div>Contact Us</div>
+                    <div style="font-size: 12px;">
+                        <p>Agalpur,Balangir</p>
+                        <p>Odisha(767022)</p>
+                    </div>
+
+                </div>
+                <div class="footer-social col-4 footer-div">
+                    <div>Socials</div>
+                    <div style="font-size: 12px;">
+                        <p>Agalpur,Balangir</p>
+                        <p>Odisha(767022)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">&#169; 2023 Copyright : Agalpur</div>
+        </div>
+    </footer>
+</body>
+</html>

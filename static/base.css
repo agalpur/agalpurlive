@@ -1,0 +1,85 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+.village_name{
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.home img{
+    display: block;
+    text-align: center;
+}
+.footer-content{
+    background-color:#20022b;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content div{
+    padding: 5px;
+
+    /* background-color: black; */
+
+}
+.footer-div{
+    height: 25vh;
+
+}
+.copyright{
+    font-size: 12px;
+    background-color: #030022;
+    color: #d2afdf;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+@media only screen and (min-width: 775px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        background-color: #20022b;
+        /* background-color: black; */
+        width: 100vw;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        text-align: left;
+        /* margin: 0px 20px; */
+    }
+}
+
+
+
+
+
